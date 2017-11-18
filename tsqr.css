@@ -1,0 +1,112 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font: 400 16px/1.8 "Georgia", sans-serif;
+    color:#777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+    
+.bgimg-1{ 
+    background-image: url("tshome.jpg");
+    min-height: 100%;
+}
+
+.bgimg-2{
+    background-image: url("brittle.jpg");
+    min-height: 400%;
+}
+
+.brimg-3(
+background-image: url("brittle.jpg");
+    min-height: 400%;
+)
+
+.title{
+    position: absolute;
+    left: 0; top: 50%; width: 100%;
+    text-align: center;
+    color: #000;
+    
+}
+
+.title span.border{
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+    letter-spacing: 10px;
+    font-size:24px;   
+}
+
+.caption{
+    position: absolute;
+    left: 0; top: 50%; width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border{
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+    letter-spacing: 10px;
+    font-size:24px;
+}
+
+
+h3{
+    font: 24px "Georgia", sans-serif; color: #111;
+    letter-spacing: 4px;
+    text-transform: uppercase;    
+}
+
+.nav{
+    overflow: hidden;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.nav li{
+    display: inline-block;
+    margin; 40px 50px;
+}
+
+.nav a{
+    float: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px; 
+    display: block;
+    padding: 14px 16px;
+    
+}
+
+.nav a:hover{
+    color: gray;
+    text-decoration: none;
+    background-color: #ddd;
+}
+
+.container{
+    
+}
+
+.parallax{
+    background-image: url('tshome.jpg');
+    height: 50%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
