@@ -5,7 +5,7 @@ body, html{
     color:#777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3{
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6{
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -25,17 +25,28 @@ body, html{
     min-height: 400%;
 }
 
-.brimg-3(
-background-image: url("brittle.jpg");
-    min-height: 400%;
-)
+.bgimg-3{
+    background-image: url("cbrittle.jpg");
+    min-height: 100%;
+}
+
+.bgimg-4{
+    background-image: url("tcup.jpg");
+    min-height: 100%;}
+
+.bgimg-5{
+    background-image: url("tsevent.jpg");
+    min-height: 100%;}
+
+.bgimg-6{
+    background-image: url("tsweekly.jpg");
+    min-height: 100%;}
 
 .title{
     position: absolute;
     left: 0; top: 50%; width: 100%;
     text-align: center;
-    color: #000;
-    
+    color: #000;    
 }
 
 .title span.border{
@@ -68,6 +79,12 @@ h3{
     text-transform: uppercase;    
 }
 
+
+/* Turn off parallax scrolling for phones and tablets */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6}
+
+
 .nav{
     overflow: hidden;
     background-color: black;
@@ -93,13 +110,12 @@ h3{
 }
 
 .nav a:hover{
-    color: gray;
+    color: darkgray;
     text-decoration: none;
     background-color: #ddd;
 }
 
-.container{
-    
+
 }
 
 .parallax{
